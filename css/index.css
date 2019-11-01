@@ -79,6 +79,29 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    margin-bottom: 1em;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container-about{
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 1em;
+}
+
+.bottom-content-together {
+    display: flex;
+    margin: 1rem;
+}
+
+.bottom-content-together .text-container-together {
+    width: 95%;
+    padding: 0 1%;
+    margin: 1rem 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,7 +127,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +149,28 @@ p {
     padding-right: 0;
 }
 
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+/*
+nav {
+    border: 1px solid grey;
+}
+*/
 footer {
     width: 100%;
     background: black;
@@ -143,4 +188,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+.rect-container {
+    width: 95%;
+    display: flex;
+}
+
+.rect {
+    width: 48%;
+    padding: 0 1%;
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+
+}
+
+.rect-heading {
+    margin: 1em 0;
+}
+
+.button {
+    margin: 1em 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    width: 120px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
 }
