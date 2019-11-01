@@ -91,6 +91,14 @@ p {
     padding-bottom: 1em;
 }
 
+.bottom-content-together {
+
+}
+
+.bottom-content-together .text-container-together {
+    
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -222,9 +230,12 @@ footer nav a {
 .rect {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;
+    margin: 1rem 1rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px dashed black;
+
 }
 
 .rect-heading {
@@ -232,5 +243,5 @@ footer nav a {
 }
 
 .button {
-    
+
 }
