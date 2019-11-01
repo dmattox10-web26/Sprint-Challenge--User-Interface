@@ -92,11 +92,14 @@ p {
 }
 
 .bottom-content-together {
-
+    display: flex;
+    margin: 1rem;
 }
 
 .bottom-content-together .text-container-together {
-    
+    width: 95%;
+    padding: 0 1%;
+    margin: 1rem 0;
 }
 
 .top-content .text-container {
