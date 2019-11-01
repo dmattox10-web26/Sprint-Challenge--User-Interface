@@ -79,6 +79,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    margin-bottom: 1em;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container-about{
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 1em;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -201,4 +213,24 @@ footer nav a {
 }
 .box10 {
     background: dodgerblue;
+}
+.rect-container {
+    width: 95%;
+    display: flex;
+}
+
+.rect {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rect-heading {
+    margin: 1em 0;
+}
+
+.button {
+    
 }
